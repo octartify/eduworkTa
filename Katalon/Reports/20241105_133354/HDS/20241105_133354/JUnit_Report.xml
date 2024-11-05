@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HDS" time="152.921" tests="2" failures="0" errors="0">
+   <testsuite name="HDS" tests="2" failures="0" errors="0" time="152.921" skipped="0" timestamp="05-11-2024T13:35:14" hostname="Marie Hendriks - DESKTOP-J6P910I" id="Test Suites/HDS">
+      <properties>
+         <property name="deviceName" value="INFINIX MOBILITY LIMITED Infinix X688B (Android 11)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\Marie Hendriks\\Katalon Studio\\FINAL\\Reports\\20241105_133354\\HDS\\20241105_133354"/>
+         <property name="logFiles" value="C:\\Users\\Marie Hendriks\\Katalon Studio\\FINAL\\Reports\\20241105_133354\\HDS\\20241105_133354\\appium.log, C:\\Users\\Marie Hendriks\\Katalon Studio\\FINAL\\Reports\\20241105_133354\\HDS\\20241105_133354\\appium_error.log, C:\\Users\\Marie Hendriks\\Katalon Studio\\FINAL\\Reports\\20241105_133354\\HDS\\20241105_133354\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Marie Hendriks - DESKTOP-J6P910I"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.12.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.12.0"/>
+         <property name="deviceModel" value="Infinix X688B"/>
+         <property name="hostAddress" value="192.168.123.190"/>
+         <property name="deviceManufacturer" value="INFINIX MOBILITY LIMITED"/>
+         <property name="deviceId" value="061972513T000542"/>
+         <property name="deviceName" value="INFINIX MOBILITY LIMITED Infinix X688B (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/HDS app/AddProduct" time="76.116" classname="Test Cases/HDS app/AddProduct" status="PASSED">
+         <system-out><![CDATA[05-11-2024T13:35:15 - [TEST_CASE][PASSED] - Test Cases/HDS app/AddProduct: Test Cases/HDS app/AddProduct
+
+05-11-2024T13:35:16 - [TEST_STEP][PASSED] - startApplication("D:\My Data\Downloads\Happy Day Shopping1.7.apk", true): Started application: 'D:\My Data\Downloads\Happy Day Shopping1.7.apk'
+
+05-11-2024T13:35:17 - [MESSAGE][INFO] - Starting application: 'D:\My Data\Downloads\Happy Day Shopping1.7.apk'
+
+05-11-2024T13:35:18 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+05-11-2024T13:35:22 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+05-11-2024T13:35:22 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Marie Hendriks\.appium
+
+05-11-2024T13:35:22 - [MESSAGE][INFO] - appium outlog: C:\Users\Marie Hendriks\Katalon Studio\FINAL\Reports\20241105_133354\HDS\20241105_133354\appium.log
+
+05-11-2024T13:35:22 - [MESSAGE][INFO] - appium errlog: C:\Users\Marie Hendriks\Katalon Studio\FINAL\Reports\20241105_133354\HDS\20241105_133354\appium_error.log
+
+05-11-2024T13:35:29 - [MESSAGE][INFO] - Appium server started on port 60,648
+
+05-11-2024T13:36:03 - [MESSAGE][PASSED] - Started application: 'D:\My Data\Downloads\Happy Day Shopping1.7.apk'
+
+05-11-2024T13:36:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - NEW PRODUCTS"), 0): Tapped on element 'Object Repository/android.widget.TextView - NEW PRODUCTS'
+
+05-11-2024T13:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - NEW PRODUCTS'
+
+05-11-2024T13:36:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Product-ajinomoto"), 0): Tapped on element 'Object Repository/Product-ajinomoto'
+
+05-11-2024T13:36:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:36:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product-ajinomoto'
+
+05-11-2024T13:36:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/AddtoBag-button"), 0): Tapped on element 'Object Repository/AddtoBag-button'
+
+05-11-2024T13:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:36:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/AddtoBag-button'
+
+05-11-2024T13:36:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/cartBag-button"), 0): Tapped on element 'Object Repository/cartBag-button'
+
+05-11-2024T13:36:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:36:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cartBag-button'
+
+05-11-2024T13:36:26 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+05-11-2024T13:36:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HDS app/CatalogMenu" time="75.311" classname="Test Cases/HDS app/CatalogMenu" status="PASSED">
+         <system-out><![CDATA[05-11-2024T13:36:31 - [TEST_CASE][PASSED] - Test Cases/HDS app/CatalogMenu: Test Cases/HDS app/CatalogMenu
+
+05-11-2024T13:36:32 - [TEST_STEP][PASSED] - startApplication("D:\My Data\Downloads\Happy Day Shopping1.7.apk", true): Started application: 'D:\My Data\Downloads\Happy Day Shopping1.7.apk'
+
+05-11-2024T13:36:32 - [MESSAGE][INFO] - Starting application: 'D:\My Data\Downloads\Happy Day Shopping1.7.apk'
+
+05-11-2024T13:36:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+05-11-2024T13:36:37 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+05-11-2024T13:36:37 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Marie Hendriks\.appium
+
+05-11-2024T13:36:37 - [MESSAGE][INFO] - appium outlog: C:\Users\Marie Hendriks\Katalon Studio\FINAL\Reports\20241105_133354\HDS\20241105_133354\appium.log
+
+05-11-2024T13:36:37 - [MESSAGE][INFO] - appium errlog: C:\Users\Marie Hendriks\Katalon Studio\FINAL\Reports\20241105_133354\HDS\20241105_133354\appium_error.log
+
+05-11-2024T13:36:44 - [MESSAGE][INFO] - Appium server started on port 60,803
+
+05-11-2024T13:37:14 - [MESSAGE][PASSED] - Started application: 'D:\My Data\Downloads\Happy Day Shopping1.7.apk'
+
+05-11-2024T13:37:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MenuButton"), 0): Tapped on element 'Object Repository/MenuButton'
+
+05-11-2024T13:37:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:37:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MenuButton'
+
+05-11-2024T13:37:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - BEAUTY"), 0): Tapped on element 'Object Repository/android.widget.TextView - BEAUTY'
+
+05-11-2024T13:37:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:37:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - BEAUTY'
+
+05-11-2024T13:37:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Make Up"), 0): Tapped on element 'Object Repository/android.widget.TextView - Make Up'
+
+05-11-2024T13:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:37:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Make Up'
+
+05-11-2024T13:37:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Brilliant Colours Hyper Hydra Pressed Powder 7g (Natural)"), 0): Tapped on element 'Object Repository/android.widget.TextView - Brilliant Colours Hyper Hydra Pressed Powder 7g (Natural)'
+
+05-11-2024T13:37:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:37:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Brilliant Colours Hyper Hydra Pressed Powder 7g (Natural)'
+
+05-11-2024T13:37:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.EditText - 1"), 0): Tapped on element 'Object Repository/android.widget.EditText - 1'
+
+05-11-2024T13:37:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:37:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.EditText - 1'
+
+05-11-2024T13:37:40 - [TEST_STEP][PASSED] - tap(findTestObject("AddtoBag-button"), 0): Tapped on element 'Object Repository/AddtoBag-button'
+
+05-11-2024T13:37:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:37:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/AddtoBag-button'
+
+05-11-2024T13:37:40 - [TEST_STEP][PASSED] - tap(findTestObject("cartBag-button"), 0): Tapped on element 'Object Repository/cartBag-button'
+
+05-11-2024T13:37:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-11-2024T13:37:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cartBag-button'
+
+05-11-2024T13:37:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+05-11-2024T13:37:47 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-11-2024T13:35:14 - [TEST_SUITE][PASSED] - HDS: Test Cases/HDS app/CatalogMenu]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HDS,,,,05-11-2024 13:35:14,05-11-2024 13:37:47,2m - 32.921s,PASSED
+,,,,,,,
+Test Cases/HDS app/AddProduct,,,,05-11-2024 13:35:15,05-11-2024 13:36:31,1m - 16.116s,PASSED
+"startApplication(""D:\My Data\Downloads\Happy Day Shopping1.7.apk"", true)",,,,05-11-2024 13:35:16,05-11-2024 13:36:03,47.120s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - NEW PRODUCTS""), 0)",,,,05-11-2024 13:36:03,05-11-2024 13:36:12,8.468s,PASSED
+"tap(findTestObject(""Object Repository/Product-ajinomoto""), 0)",,,,05-11-2024 13:36:12,05-11-2024 13:36:20,8.111s,PASSED
+"tap(findTestObject(""Object Repository/AddtoBag-button""), 0)",,,,05-11-2024 13:36:20,05-11-2024 13:36:24,4.278s,PASSED
+"tap(findTestObject(""Object Repository/cartBag-button""), 0)",,,,05-11-2024 13:36:24,05-11-2024 13:36:26,1.612s,PASSED
+closeApplication(),,,,05-11-2024 13:36:26,05-11-2024 13:36:31,5.797s,PASSED
+,,,,,,,
+Test Cases/HDS app/CatalogMenu,,,,05-11-2024 13:36:31,05-11-2024 13:37:47,1m - 15.311s,PASSED
+"startApplication(""D:\My Data\Downloads\Happy Day Shopping1.7.apk"", true)",,,,05-11-2024 13:36:32,05-11-2024 13:37:14,42.295s,PASSED
+"tap(findTestObject(""Object Repository/MenuButton""), 0)",,,,05-11-2024 13:37:14,05-11-2024 13:37:22,8.301s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - BEAUTY""), 0)",,,,05-11-2024 13:37:22,05-11-2024 13:37:25,2.389s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Make Up""), 0)",,,,05-11-2024 13:37:25,05-11-2024 13:37:28,3.586s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Brilliant Colours Hyper Hydra Pressed Powder 7g (Natural)""), 0)",,,,05-11-2024 13:37:28,05-11-2024 13:37:36,7.641s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.EditText - 1""), 0)",,,,05-11-2024 13:37:36,05-11-2024 13:37:40,3.455s,PASSED
+"tap(findTestObject(""AddtoBag-button""), 0)",,,,05-11-2024 13:37:40,05-11-2024 13:37:40,0.668s,PASSED
+"tap(findTestObject(""cartBag-button""), 0)",,,,05-11-2024 13:37:40,05-11-2024 13:37:41,1.092s,PASSED
+closeApplication(),,,,05-11-2024 13:37:41,05-11-2024 13:37:47,5.436s,PASSED
