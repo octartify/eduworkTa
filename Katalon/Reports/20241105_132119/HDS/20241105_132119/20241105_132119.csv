@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HDS,,,,05-11-2024 13:21:47,05-11-2024 13:28:47,6m - 59.372s,FAILED
+,,,,,,,
+Test Cases/HDS app/AddProduct,,,,05-11-2024 13:24:14,05-11-2024 13:25:18,1m - 3.890s,PASSED
+"startApplication(""D:\My Data\Downloads\Happy Day Shopping1.7.apk"", true)",,,,05-11-2024 13:24:15,05-11-2024 13:24:46,31.877s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - NEW PRODUCTS""), 0)",,,,05-11-2024 13:24:46,05-11-2024 13:25:00,13.211s,PASSED
+"tap(findTestObject(""Object Repository/Product-ajinomoto""), 0)",,,,05-11-2024 13:25:00,05-11-2024 13:25:08,8.569s,PASSED
+"tap(findTestObject(""Object Repository/AddtoBag-button""), 0)",,,,05-11-2024 13:25:08,05-11-2024 13:25:11,3.222s,PASSED
+"tap(findTestObject(""Object Repository/cartBag-button""), 0)",,,,05-11-2024 13:25:11,05-11-2024 13:25:13,1.812s,PASSED
+closeApplication(),,,,05-11-2024 13:25:13,05-11-2024 13:25:18,5.083s,PASSED
+,,,,,,,
+Test Cases/HDS app/CatalogMenu,,,,05-11-2024 13:27:53,05-11-2024 13:28:47,53.755s,FAILED
+"startApplication(""D:\My Data\Downloads\Happy Day Shopping1.7.apk"", true)",,,,05-11-2024 13:27:53,05-11-2024 13:28:23,29.686s,PASSED
+"tap(findTestObject(""Object Repository/MenuButton""), 0)",,,,05-11-2024 13:28:23,05-11-2024 13:28:28,5.329s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - BEAUTY""), 0)",,,,05-11-2024 13:28:28,05-11-2024 13:28:33,4.977s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Make Up""), 0)",,,,05-11-2024 13:28:33,05-11-2024 13:28:37,3.717s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Brilliant Colours Hyper Hydra Pressed Powder 7g (Natural)""), 0)",,,,05-11-2024 13:28:37,05-11-2024 13:28:44,7.736s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.EditText - 1""), 0)",,,,05-11-2024 13:28:44,05-11-2024 13:28:45,0.501s,PASSED
+"tap(findTestObject(""AddtoBag-button""), 0)",,,,05-11-2024 13:28:45,05-11-2024 13:28:47,1.735s,PASSED
+"tap(findTestObject(""null""), 0)",,,,05-11-2024 13:28:47,05-11-2024 13:28:47,0.016s,FAILED
